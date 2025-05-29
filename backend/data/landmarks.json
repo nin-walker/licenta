@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1",
+    "name": "Palatul Parlamentului",
+    "type": "tourist attraction",
+    "location": "București, România",
+    "latitude": 44.4278,
+    "longitude": 26.0877,
+    "short_description": "A doua cea mai mare clădire administrativă din lume, simbol al Bucureștiului.",
+    "ai_generated_description": "Cunoscut și sub numele de Casa Poporului, Palatul Parlamentului este o clădire monumentală din București, România. A fost construită în perioada comunistă și este a doua cea mai mare clădire administrativă ca suprafață din lume, după Pentagon. Găzduiește Parlamentul României și diverse muzee și galerii. Arhitectura sa impunătoare atrage numeroși vizitatori anual.",
+    "image_url": "/static/images/palatul_parlamentului.jpeg"
+  },
+  {
+    "id": "2",
+    "name": "Castelul Bran",
+    "type": "castle",
+    "location": "Bran, Brașov, România",
+    "latitude": 45.5148,
+    "longitude": 25.3670,
+    "short_description": "Celebru pentru legătura cu legenda lui Dracula, un castel medieval impresionant.",
+    "ai_generated_description": "Castelul Bran este un monument național și un punct de reper în România, faimos în special datorită asocierii sale cu legenda lui Dracula. Situat la granița dintre Transilvania și Țara Românească, castelul a fost construit inițial ca o fortăreață teutonă în secolul al XIII-lea. Arhitectura sa gotică și istoria bogată îl fac o atracție turistică de top, oferind o incursiune fascinantă în trecutul medieval.",
+    "image_url": "/static/images/castelul_bran.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Cetatea Alba Carolina",
+    "type": "fortress",
+    "location": "Alba Iulia, România",
+    "latitude": 46.0694,
+    "longitude": 23.5701,
+    "short_description": "O cetate stelată magnifică, plină de istorie romană și medievală.",
+    "ai_generated_description": "Cetatea Alba Carolina este una dintre cele mai impresionante fortificații de tip Vauban din Europa, situată în orașul Alba Iulia. Construită la începutul secolului al XVIII-lea, cetatea are o formă stelată cu șapte bastioane. Este un important centru istoric al României, găzduind vestigii romane, medievale și baroce, precum și Catedrala Reîntregirii Neamului.",
+    "image_url": "/static/images/cetatea_alba_carolina.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Mănăstirea Voroneț",
+    "type": "monastery",
+    "location": "Voroneț, Suceava, România",
+    "latitude": 47.5100,
+    "longitude": 25.8660,
+    "short_description": "Biserica 'Capela Sixtină a Estului', faimoasă pentru frescele sale exterioare.",
+    "ai_generated_description": "Mănăstirea Voroneț, supranumită 'Capela Sixtină a Estului', este una dintre cele mai valoroase mănăstiri din Bucovina, parte a patrimoniului UNESCO. Este renumită pentru frescele sale exterioare vibrante, în special pentru nuanța unică de albastru de Voroneț. Picturile, realizate în secolul al XV-lea, înfățișează scene biblice complexe, fiind o mărturie a artei medievale românești.",
+    "image_url": "/static/images/manastirea_voronet.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Sighișoara",
+    "type": "citadel",
+    "location": "Sighișoara, Mureș, România",
+    "latitude": 46.2198,
+    "longitude": 24.7927,
+    "short_description": "Cetate medievală locuită, inclusă în patrimoniul UNESCO, locul de naștere al lui Dracula.",
+    "ai_generated_description": "Sighișoara este una dintre puținele cetăți medievale locuite din Europa și un sit UNESCO. Orașul este celebru pentru arhitectura sa bine conservată, străzile pietruite și Turnul cu Ceas, care oferă o panoramă superbă. Este, de asemenea, cunoscut ca locul de naștere al lui Vlad Dracul, tatăl lui Vlad Țepeș, personajul istoric din spatele legendei lui Dracula.",
+    "image_url": "/static/images/sighisoara.png"
+  },
+  {
+    "id": "6",
+    "name": "Transfăgărășan",
+    "type": "mountain road",
+    "location": "Munții Făgăraș, România",
+    "latitude": 45.3524,
+    "longitude": 24.6293,
+    "short_description": "Un drum spectaculos prin munți, cu peisaje uimitoare și viraje periculoase.",
+    "ai_generated_description": "Transfăgărășanul este o șosea montană spectaculoasă care traversează Munții Făgăraș, făcând legătura între Transilvania și Țara Românească. Este considerat unul dintre cele mai frumoase drumuri din lume, oferind peisaje alpine impresionante, cascade și lacuri glaciare. A fost construit în anii '70 și este deschis de obicei doar câteva luni pe an, din cauza condițiilor meteorologice extreme.",
+    "image_url": "/static/images/transfagarasan.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Salina Turda",
+    "type": "salt mine",
+    "location": "Turda, Cluj, România",
+    "latitude": 46.5779,
+    "longitude": 23.7788,
+    "short_description": "O salină impresionantă transformată într-un muzeu și parc de distracții subteran.",
+    "ai_generated_description": "Salina Turda este o veche mină de sare din Transilvania, transformată într-un spectaculos parc tematic subteran. Cu o istorie de exploatare a sării ce datează din antichitate, salina a fost modernizată și oferă acum vizitatorilor o experiență unică, incluzând plimbări cu barca pe un lac subteran, terenuri de sport și o roată Ferris. Este considerată o minune inginerească și un obiectiv turistic de top.",
+    "image_url": "/static/images/salina_turda.jpeg"
+  }
+]

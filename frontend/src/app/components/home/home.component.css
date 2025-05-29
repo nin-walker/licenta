@@ -1,0 +1,99 @@
+.home-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 800px; /* Limitează lățimea pentru aspect de "aplicație mobilă" */
+  margin: 0 auto;
+  min-height: calc(100vh - 80px); /* Asigură spațiu pentru footer, 80px e o estimare */
+  padding-bottom: 80px; /* Spațiu jos pentru footer-ul fix */
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.app-header h1 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  color: #555;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.landmarks-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.landmark-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s;
+  cursor: pointer; /* Indicăm că e clickabil */
+}
+
+.landmark-card:hover {
+  transform: translateY(-5px);
+}
+
+.landmark-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover; /* Asigură că imaginea acoperă zona fără a fi deformată */
+}
+
+.landmark-card h3 {
+  margin: 10px 0;
+  color: #333;
+  font-size: 1.1em;
+}
+
+.landmark-card p {
+  color: #666;
+  font-size: 0.9em;
+  padding: 0 10px 10px;
+}
+
+.description-short {
+  font-style: italic;
+  font-size: 0.85em;
+  color: #777;
+}

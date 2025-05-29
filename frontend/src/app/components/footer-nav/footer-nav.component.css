@@ -1,0 +1,35 @@
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  position: fixed; /* O face să rămână jos */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  border-top: 1px solid #eee;
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+  z-index: 1000; /* Asigură că e deasupra altor elemente */
+}
+
+.footer-nav button {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-size: 0.9em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+  transition: color 0.2s;
+}
+
+.footer-nav button:hover {
+  color: #0056b3;
+}
+
+.footer-nav button i {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}

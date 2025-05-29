@@ -1,0 +1,36 @@
+<div class="home-container">
+  <header class="app-header">
+    <h1>Roamio</h1>
+    <div class="search-bar">
+      <input type="text" [(ngModel)]="searchTerm" (keyup.enter)="performSearch()" placeholder="Search landmarks, cities...">
+      <button (click)="performSearch()">Search</button>
+    </div>
+  </header>
+
+  <section class="suggestions-section">
+    <h2>Suggestions for you</h2>
+    <div class="landmarks-list">
+      <div class="landmark-card" *ngFor="let landmark of suggestedLandmarks">
+        <img [src]="'http://127.0.0.1:5000' + landmark.image_url" alt="{{ landmark.name }}">
+        <h3>{{ landmark.name }}</h3>
+        <p>{{ landmark.location }}</p>
+        <p class="description-short">{{ landmark.short_description }}</p>
+        </div>
+      <p *ngIf="suggestedLandmarks.length === 0 && searchTerm">No landmarks found for "{{ searchTerm }}".</p>
+    </div>
+  </section>
+
+  <section class="recent-viewed-section">
+    <h2>Recently Viewed / Popular</h2>
+    <div class="landmarks-list">
+      <div class="landmark-card" *ngFor="let landmark of recentlyViewedLandmarks">
+        <img [src]="'http://127.0.0.1:5000' + landmark.image_url" alt="{{ landmark.name }}">
+        <h3>{{ landmark.name }}</h3>
+        <p>{{ landmark.location }}</p>
+        </div>
+      <p *ngIf="recentlyViewedLandmarks.length === 0">No recently viewed landmarks yet.</p>
+    </div>
+  </section>
+</div>
+
+<app-footer-nav></app-footer-nav>
