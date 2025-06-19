@@ -16,4 +16,9 @@ export class LandmarksService {
   getLandmarks(): Observable<Landmark[]> {
     return this.http.get<Landmark[]>(this.apiUrl);
   }
+
+ getLandmarkById(id: string): Observable<Landmark> {
+    const url = `${this.apiUrl}/${id}`;
+    return this.http.get<Landmark>(url);
+  }
 }
