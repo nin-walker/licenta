@@ -5,7 +5,6 @@ import { FormsModule } from '@angular/forms';
 import { LandmarksService } from '../../services/landmarks.service';
 import { Landmark } from '../../interfaces/landmark';
 import { FooterNavComponent } from '../footer-nav/footer-nav.component';
-import { get } from 'http';
 
 @Component({
   selector: 'app-home',
